@@ -1,0 +1,110 @@
+@media (max-width: 870px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer-app {
+    display: none;
+  }
+  .footer-list {
+    padding-top: 2rem;
+  }
+
+  .destinations::after,
+  .destinations::before {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .footer__right {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-content__title {
+    font-size: 4rem;
+  }
+  .destinations__title {
+    font-size: 2.4rem;
+  }
+  .newsletter__title {
+    max-width: 16rem;
+  }
+}
+
+@media (min-width: 260px) {
+  .header-links,
+  .menu {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 768px) {
+  .newsletter__img {
+    min-width: 100%;
+  }
+  .newsletter__content {
+    flex-basis: 40%;
+  }
+  .newsletter__banner {
+    flex-basis: 60%;
+  }
+  .newsletter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 869px) {
+  .nav__btn,
+  .nav-menu {
+    display: none;
+  }
+  .nav{
+    background-color: rgba(135, 207, 235, 0.37);
+  }
+
+  .header-links {
+    display: block;
+  }
+  .menu {
+    display: flex;
+  }
+  
+  .newsletter {
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+  }
+
+  .newsletter__banner {
+    max-width: 40%;
+  }
+  .footer-mobile-apps {
+    display: none;
+  }
+  .newsletter::before {
+    left: 48rem;
+    top: 5rem;
+  }
+}
+@media (min-width: 992px) {
+  .header-content__caption {
+    max-width: 50rem;
+  }
+  .newsletter__content {
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .newsletter__content {
+    flex-basis: auto;
+  }
+  .newsletter__banner {
+    flex-basis: auto;
+  }
+}
