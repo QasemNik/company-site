@@ -54,6 +54,9 @@ a {
   -webkit-border-radius: 10rem;
   font-family: var(--primary-font-md);
 }
+#modal{
+  display: none;
+}
 .header {
   background: linear-gradient(
       rgba(255, 255, 255, 0.167),
@@ -619,6 +622,7 @@ Main Content
 .place__link {
   background: var(--dark);
   min-width: 17rem;
+  cursor: pointer;
 }
 .place__price-text {
   font-size: 1.6rem;
